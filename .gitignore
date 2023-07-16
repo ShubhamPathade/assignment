@@ -1,0 +1,21 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/elansol-technologies/node_modules
+/elansol-technologies/.pnp
+/elansol-technologies/.pnp.js
+node_modules
+/server/.env
+# testing
+
+/elansol-technologies/coverage
+# misc
+/elansol-technologies/.DS_Store
+/elansol-technologies/.env.local
+/elansol-technologies/.env.development.local
+/elansol-technologies/.env.test.local
+/elansol-technologies/.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
