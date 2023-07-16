@@ -31,7 +31,7 @@ const LoginForm = ({setIsAuth}) => {
     e.preventDefault();
     try {
       setLoading(true);
-      const { data } = await axios.post("/api/v1/login", userData);
+      const { data } = await axios.post("api/v1/login", userData);
       console.log(data);
       localStorage.setItem("userData",data);
       setLoading(false);

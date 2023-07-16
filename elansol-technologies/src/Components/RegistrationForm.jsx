@@ -162,7 +162,7 @@ const RegistrationForm = () => {
               </button>
               <hr style={{ color: "white" }} />
               <Link to="/" className="btn btn-outline-danger btn-lg w-100">
-                Cancel Registration
+              Login
               </Link>
             </div>
           </div>
